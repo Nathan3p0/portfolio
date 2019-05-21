@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,700&display=optional" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Nathan Szelag's Web Portfolio</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation">
+        <span class="navbar__toggle" id="js-navbar__toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#top" class="navbar__title">Nathan Szelag</a>
+        <ul class="nav" id="js-nav">
+            <li><a href="#about-me" class="nav__links">About Me</a></li>
+            <li><a href="#my-skills" class="nav__links">My Skills</a></li>
+            <li><a href="#projects" class="nav__links">Projects</a></li>
+            <li><a href="#" class="nav__links">Blog</a></li>
+            <li><a href="#contact-me" class="nav__links">Contact Me</a></li>
+        </ul>
+    </nav>
+    <header class="header" role="banner" id="top">
+        <div class="header__textbox">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Hey, my name is <span class="heading-primary--name">Nate Szelag</span></span>
+                <hr>
+                <span class="heading-primary--sub">I'm a FullStack</span>
+                <span class="heading-primary--sub">Web Developer <br>& UI/UX Designer</span>
+            </h1>
+        </div>
+        <div class="header__btnbox">
+            <a href="mailto:nszelag@live.com" class="btn btn--contact btn--animated">Contact Me</a>
+        </div>
+    </header>
+    <main class="main" role="main">
+        <section class="about-me" id="about-me">
+            <div class="about-me__img">
+                <img src="images/profile-pic.jpg" alt="a picture of nathan szelag">
+                <h3>Nathan Szelag</h3>
+                <p>Web Developer & UI/UX Designer</p>
+            </div>
+            <div class="about-me__bio">
+                <h4>About Me</h4>
+                <p>I'm a current student in the Thinkful Fullstack Engineering program. I have a background in graphic design and work towards implementing that knowledge into my web projects. My goal is to be able to use these skills and build web applications that have a positive impact on people's lives. I have a never ending hunger for knowledge and will always be looking to expand my programming abilities.</p>
+                <p>When I'm not coding, I am spending time with my family. Going on random adventures and finding interesting things to photograph.</p>
+            </div>
+        </section>
+        <section class="connection" id="contact-me">
+            <h4>-Connect With Me-<hr></h4>
+            <div class="icon-container">
+                <a href="https://www.linkedin.com/in/nathan-szelag/" target="_blank">
+                    <i class="fab fa-linkedin fa-4x"></i>
+                </a>
+            </div>
+            <div class="icon-container">
+                    <a href="https://github.com/Nathan3p0" target="_blank">
+                        <i class="fab fa-github fa-4x"></i>
+                    </a>
+            </div>
+            <div class="icon-container">
+                <a href="https://twitter.com/NathanSzelag" target="_blank">
+                    <i class="fab fa-twitter fa-4x"></i>
+                </a>
+            </div>
+            <div class="icon-container">
+                <a href="mailto:nszelag@live.com">
+                    <i class="fas fa-envelope fa-4x"></i>
+                </a>
+            </div>
+        </section>
+        <section class="skills" id="my-skills">
+            <h4>-My Skills- <hr></h4>
+            <div>
+                <i class="fab fa-html5" ></i>
+                <p>HTML 5</p>
+            </div>
+            <div>
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS 3</p>
+            </div>
+            <!-- <div>
+                <i class="fab fa-sass"></i>
+                <p>Sass</p>
+            </div> -->
+            <div>
+                <i class="fab fa-js-square"></i>
+                <p>JavaScript</p>
+            </div>
+            <!-- <div>
+                <i class="fab fa-react"></i>
+                <p>React JS</p>
+            </div> -->
+            <div>
+                <i class="fab fa-adobe"></i>
+                <p>Adobe CC</p>
+            </div>
+            <!-- <div>
+                <i class="fab fa-node-js"></i>
+                <p>Node JS</p>
+            </div> -->
+            <div>
+                <img src="images/Logo-JQuery-256.png" alt="jquery logo">
+                <p>jQuery</p>
+            </div>
+            <div>
+                <i class="fab fa-git-alt"></i>
+                <p>Git + GitHub</p>
+            </div>
+        </section>
+        <hr>
+        <section class="projects" id="projects">
+            <h4>-Current Projects-</h4>
+            <div class="projects__container">
+                <img src="images/quizapp.jpg" alt="screenshot of quiz app program">
+                <p class="projects__container--heading">Quiz App</p>
+                <p>The Quiz App was designed to be a single page application. Based on user interaction the Quiz will render specific templates depending on Starting, Answering, and Finishing. All features of the app will update upon the questions storage being altered with new questions or removing questions.</p>
+                <p class="projects__container--tech">Technologies Used:</p>
+                <p class="projects__container--languages">HTML, CSS, JavaScript, jQuery</p>
+                <a href="https://github.com/Nathan3p0/quizapp" target="_blank" class="btn btn--link">GitHub Repo</a>
+                <a href="https://nathan3p0.github.io/quizapp/" target="_blank" class="btn btn--link">See It Live</a>
+            </div>
+            <div class="projects__container">
+                    <img src="images/etchasketch.jpg" alt="screenshot of Etch-A-Sketch app">
+                    <p class="projects__container--heading">Etch-A-Sketch Web App</p>
+                    <p>The Etch-A-Sketch web app was built using jQuery. The main function is to generate either a 16 x 16 or 64 x 64 grid.  On mouse over of each div the css class is changed depending on which color option you chose. All funky colors are randomly generated hex values. When you are ready there is a full board reset option.</p>
+                    <p class="projects__container--tech">Technologies Used:</p>
+                    <p class="projects__container--languages">HTML, CSS, JavaScript, jQuery</p>
+                    <a href="https://github.com/Nathan3p0/Etch-A-Sketch" target="_blank" class="btn btn--link">GitHub Repo</a>
+                    <a href="https://nathan3p0.github.io/Etch-A-Sketch/" target="_blank" class="btn btn--link">See It Live</a>
+            </div>
+        </section>
+    </main>
+    <footer role="contentinfo" class="footer">
+        <p>&copy; Copyright 2019 | Designed & Coded by Nathan Szelag</p>
+        <!-- <a href="#top">Return To Top</a> -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
