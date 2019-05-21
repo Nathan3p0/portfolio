@@ -245,7 +245,7 @@ h1, h2, h3, h4 {
 }
 
 .connection h4 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-bottom: 5rem;
     grid-column: 1 / -1;
     text-transform: uppercase;
@@ -309,9 +309,10 @@ h1, h2, h3, h4 {
 .skills h4 {
     grid-column: 1 / -1;
     margin-bottom: 5rem;
-    font-size: 4rem;
+    font-size: 5rem;
     text-transform: uppercase;
     font-weight: 900;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.158);
 }
 
 .skills .fab {
@@ -342,11 +343,12 @@ h1, h2, h3, h4 {
 /* Projects */
 
 .main hr { 
+    margin-top: 2.5rem;
     border: 0; 
     height: 1px; 
     background-image: linear-gradient(to right, 
     rgba(0, 0, 0, 0), 
-    rgba(0, 0, 0, 0.75), 
+    rgba(185, 185, 185, 0.596), 
     rgba(0, 0, 0, 0)); 
 
 }
@@ -361,11 +363,12 @@ h1, h2, h3, h4 {
 
 .projects h4 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 5rem;
     grid-column: 1 / -1;
     text-transform: uppercase;
     font-weight: 900;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.158);
 }
 
 .projects__container img {
