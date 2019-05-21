@@ -422,18 +422,18 @@ h1, h2, h3, h4 {
 
 
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 820px) {
     .navbar {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
-        height: 70px;
+        height: 7rem;
         align-items: center;
     }
 
     .nav {
         display: flex;
-        margin-right: 30px;
+        margin-right: 2.5rem;
         flex-direction: row;
         justify-content: flex-end;
     }
@@ -478,6 +478,17 @@ h1, h2, h3, h4 {
 
     .about-me {
         max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .nav__links {
+        padding: 2rem 2rem;
+        font-size: 1.6rem;
+    }
+
+    .nav {
+        margin-right: 1.5rem;
     }
 }
 
